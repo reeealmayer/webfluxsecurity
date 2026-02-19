@@ -1,0 +1,21 @@
+server:
+  port: 8083
+
+spring:
+  r2dbc:
+    url: r2dbc:pool:postgresql://localhost:5441/webflux-postgres-db
+    username: root
+    password: root
+
+  datasource:
+    url: jdbc:postgresql://localhost:5441/webflux-postgres-db
+    username: root
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+  flyway:
+    url: jdbc:postgresql://localhost:5441/webflux-postgres-db
+    user: root
+    password: root
+    locations: classpath:db/migration
+    enabled: true
