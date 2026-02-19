@@ -19,3 +19,10 @@ spring:
     password: root
     locations: classpath:db/migration
     enabled: true
+
+jwt:
+  password:
+    encoder:
+      secret: salmasdkmalksdmlkasmdlkasmdlkmqwpodmpokpokpo
+      iteration: 64
+      keylength: 256
