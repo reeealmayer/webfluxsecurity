@@ -9,7 +9,7 @@ import java.security.Principal;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CustomPrinciple implements Principal {
+public class CustomPrincipal implements Principal {
     private Long id;
     private String name;
 }

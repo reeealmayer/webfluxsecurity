@@ -20,7 +20,7 @@ public class PBFDK2Encoder implements PasswordEncoder {
     @Value("${jwt.password.encoder.keylength}")
     private Integer keyLength;
 
-    private static final String SECRET_KEY_INSTANCE = "PBKDF2WithHmacSH512";
+    private static final String SECRET_KEY_INSTANCE = "PBKDF2WithHmacSHA512";
 
     @Override
     public @Nullable String encode(@Nullable CharSequence rawPassword) {

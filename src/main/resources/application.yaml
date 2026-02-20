@@ -26,3 +26,6 @@ jwt:
       secret: salmasdkmalksdmlkasmdlkasmdlkmqwpodmpokpokpo
       iteration: 64
       keylength: 256
+  secret: lsmclakmclkmqmcaqwkopekpqowkdpoqwkdpokqw
+  expiration: 3600
+  issuer: shyngys

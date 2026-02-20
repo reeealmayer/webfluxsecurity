@@ -1,4 +1,4 @@
-package kz.shyngys.webfluxsecurity.config.entity;
+package kz.shyngys.webfluxsecurity.entity;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

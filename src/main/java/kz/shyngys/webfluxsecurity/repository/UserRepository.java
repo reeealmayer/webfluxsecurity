@@ -1,6 +1,6 @@
 package kz.shyngys.webfluxsecurity.repository;
 
-import kz.shyngys.webfluxsecurity.config.entity.UserEntity;
+import kz.shyngys.webfluxsecurity.entity.UserEntity;
 import org.springframework.data.r2dbc.repository.R2dbcRepository;
 import reactor.core.publisher.Mono;
 

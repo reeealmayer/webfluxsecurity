@@ -1,7 +1,7 @@
 package kz.shyngys.webfluxsecurity.mapper;
 
-import kz.shyngys.webfluxsecurity.config.entity.UserEntity;
 import kz.shyngys.webfluxsecurity.dto.UserDto;
+import kz.shyngys.webfluxsecurity.entity.UserEntity;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 

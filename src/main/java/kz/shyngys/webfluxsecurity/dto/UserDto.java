@@ -1,10 +1,10 @@
 package kz.shyngys.webfluxsecurity.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import kz.shyngys.webfluxsecurity.config.entity.UserRole;
+import com.fasterxml.jackson.databind.PropertyNamingStrategies;
+import com.fasterxml.jackson.databind.annotation.JsonNaming;
+import kz.shyngys.webfluxsecurity.entity.UserRole;
 import lombok.Data;
-import tools.jackson.databind.PropertyNamingStrategies;
-import tools.jackson.databind.annotation.JsonNaming;
 
 import java.time.LocalDateTime;
 
